@@ -1,0 +1,346 @@
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 24px 0px 0px 13px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: white;
+}
+.wrapper{
+    width: 95%;
+    margin: auto;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+
+body{
+    margin: 0;
+}
+.logo img{
+    width: 16%;
+    /* position: relative; */
+    /* top: -16px; */
+    align-items: center;
+}
+nav{
+    width: 50%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 17px;
+    font-weight: 600;
+    color: #fb7c24;
+}
+.introSec{
+    text-align: center;
+    padding: 30px;
+}
+.introSec h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #fb7c24;
+    padding: 90px 0px 0px 0px;
+}
+.introSec h1 span{
+    color: #be5004;
+}
+.introSec p{
+    font-size: 25px;
+    color: #fb7c24;
+}
+.imgSec img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.featureSec{
+    padding: 100px 0px;
+}
+.colom{
+    width: 50%;
+    float: left;
+}
+.Text{
+    text-align:right;
+    font-size: 30px;
+    padding: 0px 7px;
+}
+.Text h1{
+    color: #fb7c24;
+}
+.Text h1 span{
+    color: #be5004;
+}
+.Text p{
+    color: #be5004;
+}
+.Text p span{
+    color: #fb7c24;
+}
+.cardSec{
+    padding: 400px 0px 611px 0px;
+}
+.box{
+    width: 33.33%;
+    float: left;
+}
+.blog{
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.272) 0px 5px 15px;
+}
+.box img{
+    max-width: 100%;
+    max-height: 300px;
+    width: 100%
+}
+.red{
+background-color: #ffcdaa;
+}
+.blue{
+    background-color: #d4eff6;
+}
+.green{
+    background-color: #69c65c;
+}
+.box h3{
+    font-size: 30px;
+    color: #fb7c24;
+}
+.box p{
+    font-size: 20px;
+    color: #be5004;
+}
+.blog:hover {
+    transition: all 0.5s ease;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 5px 15px;
+}
+.footSec{
+    width: 25%;
+    float: left;
+    
+    
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.347);
+    padding: 96px 0px 389px 21px;
+}
+.footSec h4{
+    color: #be5004;
+    font-size: 30px;
+}
+.footSec ul{
+    list-style: none;
+    padding: 0;
+}
+.footSec ul li a{
+    text-decoration: none;
+    color: #fb7c24;
+    
+}
+.footSec ul li{
+    color: #fb7c24;
+    font-size: 20px;
+    line-height: 31px;
+}
+@media screen and (max-width: 683px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        padding: 7px 0px 0px 0px;
+    }
+    .wrapper{
+        width: 95%;
+        margin: auto;
+    }
+    .logo{
+        width: 18%;
+        float: left;
+    }
+    .logo img{
+        width: 100%;
+        align-items: center;
+    }
+    nav{
+        width: 80%;
+        float: left;
+        display: block;
+        padding: 20px 0px 0px 0px;
+        /* justify-content: space-evenly; */
+    }
+    nav ul li a{
+        font-size: 15px;
+        padding: 0px 2px 0px 0px;
+        font-weight: 600;
+    }
+    .introSec{
+        padding: 10px;
+    }
+    .introSec h1{
+        font-size: 50px;
+        padding: 70px 0px 0px 0px;
+    }
+    .introSec p{
+        font-size: 18px;
+    }
+    .imgSec img{
+        width: 98%;
+    }
+    .featureSec{
+        padding: 100px 0px;
+    }
+    .Text{
+        font-size: 23px;
+        padding: 0px 1px;
+    }
+    .Text p{
+        font-size: 20px;
+    }
+    .cardSec{
+        padding: 424px 0px 515px 0px;
+    }
+    .box{
+        width: 33.33%;
+    }
+    .blog{
+        margin: 9px;
+        padding: 1px 4px;
+    }
+    .box img{
+        max-width: 100%;
+        max-height: 300px;
+        width: 100%
+    }
+    .box h3{
+        font-size: 23px;
+    }
+    .box p{
+        font-size: 15px;
+    }
+    .footSec{
+        width: 25%;
+        float: left;
+    }
+    footer{
+        padding: 72px 7px 359px 3px;
+    }
+    .footSec h4{
+        font-size: 20px;
+    }
+    .footSec ul{
+        list-style: none;
+        padding: 0;
+    }
+    .footSec ul li a{
+        text-decoration: none;
+    }
+    .footSec ul li{
+        font-size: 14px;
+        line-height: 31px;
+    }
+}
+@media  screen and (min-width: 684px) and (max-width:1024px) {
+    header{
+        padding: 7px 0px 0px 0px;
+    }
+    .wrapper{
+        width: 95%;
+    }
+    .logo{
+        width: 12%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    nav{
+        width: 88%;
+        padding: 20px 0px 0px 0px;
+    }
+    nav ul li a{
+        font-size: 25px;
+        padding: 0px 26px 0px 0px;
+        font-weight: 600;
+    }
+    .introSec{
+        padding: 10px;
+    }
+    .introSec h1{
+        font-size: 55px;
+        padding: 70px 0px 0px 0px;
+    }
+    .introSec p{
+        font-size: 23px;
+    }
+    .imgSec img{
+        width: 98%;
+    }
+    .featureSec{
+        padding: 100px 0px;
+    }
+    .Text{
+        font-size: 23px;
+        padding: 0px 1px;
+    }
+    .Text p{
+        font-size: 20px;
+    }
+    .cardSec{
+        padding: 278px 0px 515px 0px;
+    }
+    .box{
+        width: 33.33%;
+    }
+    .blog{
+        margin: 9px;
+        padding: 1px 4px;
+    }
+    .box img{
+        max-width: 100%;
+        max-height: 300px;
+        width: 100%
+    }
+    .box h3{
+        font-size: 23px;
+    }
+    .box p{
+        font-size: 15px;
+    }
+    .footSec{
+        width: 25%;
+        float: left;
+    }
+    footer{
+        padding: 72px 7px 359px 3px;
+    }
+    .footSec h4{
+        font-size: 28px;
+    }
+    .footSec ul{
+        list-style: none;
+        padding: 0;
+    }
+    .footSec ul li a{
+        text-decoration: none;
+    }
+    .footSec ul li{
+        font-size: 20px;
+        line-height: 31px;
+    }
+}
